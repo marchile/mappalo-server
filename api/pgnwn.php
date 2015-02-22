@@ -1,5 +1,6 @@
 <?php
 ini_set('display_errors', '1');
+header('Access-Control-Allow-Origin: *');
 /*
  * Title:   PostGIS to GeoJSON
  * Notes:   Query a PostGIS table or view and return the results in GeoJSON format, suitable for use in OpenLayers, Leaflet, etc.
